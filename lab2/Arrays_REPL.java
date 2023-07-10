@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.Random;
 import java.util.Scanner;
 
-public class Lab5 {
+public class Arrays_REPL {
 	public static void main (String[] args) {
 		Scanner source = new Scanner(System.in);
 		System.out.println ("Enter in one of the 5 options");

@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 
 		
-		public class Lab2withmethods{
+		public class REPL_methods{
 			public static void main(String[] args) {
 				Scanner source = new Scanner(System.in);
 				String choice = "options";

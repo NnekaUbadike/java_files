@@ -1,7 +1,7 @@
 package lab2;
 import java.util.Scanner;
 
-public class Lab2off {
+public class Min_max_if_else {
 	public static void main(String[] args) {
 		Scanner source = new Scanner(System.in);
 

@@ -1,7 +1,7 @@
 package lab2;
 import java.util.Scanner;
 
-public class Lab2_min_max {
+public class Min_max_math_methods {
 	public static void main (String[]args) {
 
 	Scanner source = new Scanner(System.in);

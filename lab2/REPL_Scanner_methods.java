@@ -1,7 +1,7 @@
 package lab2;
 import java.util.Scanner;
 
-public class Lab3 {
+public class REPL_Scanner_methods {
 	public static void main (String[]args) {
 		System.out.println("\t options:");
 		System.out.println("\t sum:");

@@ -2,7 +2,7 @@ package lab2;
 import java.util.Arrays;
 import java.util.Random;
 
-public class lab4 {
+public class Random_num_array {
 	public static void main (String[]args) {
 		int smallest = 1;
 		int largest = 100;
