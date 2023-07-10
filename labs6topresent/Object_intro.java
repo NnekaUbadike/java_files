@@ -1,6 +1,6 @@
  package labs6topresent;
 import java.util.Scanner;
-public class Lab6 {
+public class Object_intro {
 
 	public static void main(String[] args) {
 		Scanner source= new Scanner(System.in);

@@ -2,7 +2,7 @@ package labs6topresent;
 import java.util.HashMap;
 import java.util.Scanner;
 
-public class Lab_8 {
+public class Recipe_creation_2_classes {
 	
 	
 	

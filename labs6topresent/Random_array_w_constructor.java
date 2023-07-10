@@ -1,11 +1,11 @@
 package labs6topresent;
 import java.util.Arrays;
 import java.util.Random;
-public class Lab10 {
+public class Random_array_w_constructor {
 	
 
 	
-	//comments may be updated; please check.
+	
 	
 	        //main method updated.
 	        public static void main(String[] args) {
@@ -122,9 +122,7 @@ public class Lab10 {
 	    }
 
 	    public String toString() {
-	    	//return what the parent's (AKA superclass') toString does, but also
-	    	//put an asterisk (*) at the beginning so it's obvious what kind of array it is.
-	    	//String newString= super.toString();
+	    	//return what the parent's (AKA superclass') toString does, b
 	    	return "*"+ super.toString();
 	    }
 	}
@@ -135,32 +133,25 @@ public class Lab10 {
 	    }
 
 	    public int get(int index) {
-	        //updated
 	    	index = Math.abs(index % super.length());
 	        return super.get(index);
 	    }
 
 	    public void set (int index, int value) {
-	        //look at "get".  It uses the mod operator to make sure
-	        //that transforms "index" to a valid index.
-	        //do the same thing here and implement set using
-	        //the superclass' set method.
 	    	index= Math.abs(index % super.length());
 	    	
 	    	super.set(index,value);
 	    }
 
 	    public int length() {
-	        //return the biggest integer possible. (You may need to look this up!)
-	    	//int big_num= Integer.MAX_VALUE;
+	        //return the biggest integer possible. 
+	    	
 	    	return Integer.MAX_VALUE;
 	    }
 
 	    public String toString() {
-	        //by length in the following comment I mean what the length method in THIS
-	        //class returns.
 	        //return the length and the contents of the array with a "+" at the beginning.
-	    	//String newString= super.toString();
+	    	
 	    	return "+" +length() + ";" + super.toString();
 	    }
 	    

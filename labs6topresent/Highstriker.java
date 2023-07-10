@@ -3,7 +3,7 @@ import java.util.Scanner;
 import java.util.Random;
 
 
-public class Lab7 {
+public class Highstriker {
 
 	public static void main(String[] args) {
 		Scanner source = new Scanner (System.in);
